@@ -2,21 +2,36 @@ body {
     color: #fff;
 }
 
-a {
+#nav a {
+    position: relative;
     text-decoration: none;
+    color: #a0a0a0;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+#nav a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+#nav a:hover {
     color: #fff;
 }
 
-a:hover {
-    opacity: 50%;
-    transition: 0.1s;
+#nav a:hover:after {
+    width: 100%;
+
 }
 
 #nav {
     display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
     padding: 0.1em 1em;
 }
 
@@ -31,5 +46,7 @@ ul li {
 }
 
 .links-nav {
-    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
 }
