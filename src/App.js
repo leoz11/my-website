@@ -26,6 +26,8 @@ function App() {
   }, []);
 
 
+
+
   return (
     <div className="App">
       {
@@ -33,11 +35,11 @@ function App() {
         <CircleLoader />
 
         ):(
-
+      
       <BrowserRouter>
       <Navbar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />}/>
         </Routes>
       </BrowserRouter>

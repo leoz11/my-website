@@ -1,0 +1,30 @@
+.home {
+    background-image: url(./wallpaper.jpg);
+    height: 80vh;
+}
+
+.container {
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa {
+    width: 250px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 10px;    
+}
+
+.wallpaper {
+    width: 100vh;
+}
+
+img {
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
