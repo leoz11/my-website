@@ -1,17 +1,17 @@
 import AnimatedPage from '../../components/AnimatedPage';
 import './Home.css'
 
-import logo from './logo.jpg';
+import react from './reactt.png';
 
 const Home = () => {
   return (
   <div>
     <div className='home'>
       <AnimatedPage>
-      <img src={logo} alt="" />
+        <img src={react} alt="react" />
       <div className='container'>
         <div className='caixa'>
-          <p className='title'>Olá! Bem-vindo ao meu site!</p>
+          <p>Olá! Bem-vindo ao meu site!</p>
         </div>
       </div>
       <div className='social'>
@@ -24,10 +24,14 @@ const Home = () => {
            </ul>
         </p>    
       </div>
-      <div className='footer'>
-      &copy; Leonardo Oliveira - Todos os direitos reservados.
+      <div>  
       </div>
       </AnimatedPage>
+    </div>
+    <div>
+      <footer className='footer'>
+        <p>&copy; 2022 Leonardo Oliveira - Todos os direitos reservados.</p>
+      </footer>
     </div>
   </div>
   );

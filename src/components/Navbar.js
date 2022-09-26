@@ -11,19 +11,19 @@ const Navbar = () => {
   return (
     <AnimatedPage>
         <nav id="nav">
-        <img src={logo}alt="react"/><p><b>Leonardo Oliveira</b></p>
-            <ul className="links-nav">
-                <li>
+        <div><img src={logo} alt="logo" /></div><p className="title"><b>Leonardo Oliveira</b></p>
+            <ul>
+                <li className="links-nav">
                     <NavLink to="/">
                         Home
                     </NavLink>
                 </li>
-                <li>
+                <li className="links-nav">
                     <NavLink to="/projects">
                         Projetos
                     </NavLink>
                 </li>
-                <li>
+                <li className="links-nav">
                     <NavLink to="/skills">
                         Skills
                     </NavLink>

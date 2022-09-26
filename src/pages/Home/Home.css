@@ -1,11 +1,11 @@
 .home {
     background-image: url(./wallpaper.jpg);
+    background-repeat: no-repeat;
     height: 83vh;
 }
 
 .container {
-    width: 100vw;
-    height: 10vh;
+    height: 5vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -16,10 +16,6 @@
     width: 250px;
     background-color: rgb(53, 52, 52);
     border-radius: 10px;    
-}
-
-.wallpaper {
-    width: 100vh;
 }
 
 .home img {
@@ -108,7 +104,16 @@
 
 .footer {
     color: #5a5a5a;
+    display: block;
     font-size: 15px;
+}
+
+.projetos {
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 
