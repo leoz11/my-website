@@ -18,7 +18,7 @@ const Projects = () => {
       </div>
       <ul class="cards">
   <li>
-    <a href="" class="card">
+    <a href="/" class="card">
       <img className='img-card' src={example} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">                   
@@ -34,7 +34,7 @@ const Projects = () => {
     </a>      
   </li>
   <li>
-    <a href="" class="card">
+    <a href="/" class="card">
       <img className='img-card' src={instagram} class="card__image" alt="" />
       <div class="card__overlay">        
         <div class="card__header">                
@@ -48,7 +48,7 @@ const Projects = () => {
     </a>
   </li>
   <li>
-    <a href="" class="card">
+    <a href="/" class="card">
       <img className='img-card' src={food} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">                     
@@ -62,7 +62,7 @@ const Projects = () => {
     </a>
   </li>
   <li>
-    <a href="" class="card">
+    <a href="/" class="card">
       <img className='img-card' src={food2} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">               
@@ -76,7 +76,7 @@ const Projects = () => {
     </a>
   </li>
   <li>
-    <a href="" class="card">
+    <a href="/" class="card">
       <img className='img-card' src={forca} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">              
@@ -90,7 +90,7 @@ const Projects = () => {
     </a>
   </li>  
   <li>
-    <a href="" class="card">
+    <a href="/" class="card">
       <img className='img-card' src={site} class="meusite" alt="" />
       <div class="card__overlay">
         <div class="card__header">            
