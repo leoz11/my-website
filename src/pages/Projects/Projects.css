@@ -16,6 +16,11 @@
   body {
     font-family: 'Roboto', sans-serif;
   }
+
+  a {
+    text-decoration: none;
+    color: aquamarine;
+  }
   
   .cards {
     display: grid;
@@ -27,6 +32,11 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+  }
+
+  .cards a {
+    color: aquamarine;
+    text-decoration: none;
   }
   
   .card {
@@ -125,5 +135,9 @@
     -webkit-line-clamp: 3;
     overflow: hidden;
   }   
+
+  .gittube {
+    padding-top: 0px;
+  }
 
   

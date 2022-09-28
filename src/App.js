@@ -7,12 +7,12 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 //Pages
 import Projects from './pages/Projects/Projects';
 import Home from './pages/Home/Home';
-
-//Hooks
+import Skills from './pages/Skills/Skills';
 
 //Components
 import Navbar from './components/Navbar';
 import CircleLoader from './components/CircleLoader';
+
 
 
 function App() {
@@ -41,6 +41,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />}/>
+          <Route path="/skills" element={<Skills/>} />
         </Routes>
       </BrowserRouter>
       )}

@@ -1,28 +1,5 @@
-.home {
-    background-image: url(./images/wallpaper.jpg);
-    background-repeat: no-repeat;
-    height: 83vh;
-}
-
-.container {
-    height: 5vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-}
-
-.caixa {
-    width: 250px;
-    background-color: rgb(53, 52, 52);
-    border-radius: 10px;    
-}
-
-.home img {
-    width: 180px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 100%;
+.content img{
+    margin-right: 7px;
 }
 
 .social {
@@ -71,7 +48,6 @@
 }
 
 .social ul {
-    margin-right: 45px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -93,23 +69,3 @@
 .twitter {
     background-color: #1DA1F2;
 }
-
-.social i {
-    color: #fff;
-}
-
-.footer {
-    color: #5a5a5a;
-    display: block;
-    font-size: 15px;
-}
-
-.projetos {
-    margin-top: 30px;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-
