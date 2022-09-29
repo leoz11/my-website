@@ -29,7 +29,7 @@ const Skills = () => {
       </div>
     </div>
     <div>
-        Você pode encontrar todas essas tecnologias sendo colocadas<br/> em prática aqui no meu site na página de <Link to="projects">projetos</Link>,<br/> no meu <a href="https://github.com/leoz11">Github</a> ou no meu <a href="https://www.youtube.com/channel/UCaHLG1KGomJI72z7UIJdaww">canal do youtube.</a>
+        Você pode encontrar todas essas tecnologias sendo colocadas<br/> em prática aqui no meu site na página de <a href="https://leonardo-oliveira.vercel.app/projects">projetos</a>,<br/> no meu <a href="https://github.com/leoz11">Github</a> ou no meu <a href="https://www.youtube.com/channel/UCaHLG1KGomJI72z7UIJdaww">canal do youtube.</a>
     </div>
     <div className='social'>
         <p>
