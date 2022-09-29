@@ -15,7 +15,7 @@ const Home = () => {
         </div>
       </div>
       <div className='social'>
-        <p>Eu me chamo Leonardo, tenho 17 anos<br /> e sou um desenvolvedor full-stack!<br /><br />
+        <p>Eu me chamo Leonardo, tenho 17 anos<br /> e sou um front-end developer!<br /><br />
            Aqui no meu site você pode encontrar informações<br /> sobre mim e alguns dos meus projetos.<br/>
            <ul>
               <a href="https://www.youtube.com/channel/UCaHLG1KGomJI72z7UIJdaww"><li className='youtube'><i class="fa-brands fa-youtube"></i></li></a>
